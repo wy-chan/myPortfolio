@@ -1,2 +1,2 @@
 # myblog
-# https://wy-chan.github.io/mypage/
+# https://wy-chan.github.io/myPortfolio/
