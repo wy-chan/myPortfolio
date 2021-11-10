@@ -11,7 +11,7 @@ body{
   position: fixed;
   top:0;
   left:0;
-  height: 60px;
+  height: 50px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -74,4 +74,15 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+footer{
+  background: #38302f;
+  height:50px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Neucha', cursive;
+}
+footer span{
+  margin: 15px 40px 15px 0;
+  color: #edebeb;
 }
