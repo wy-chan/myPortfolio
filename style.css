@@ -40,9 +40,16 @@ color: #edebeb;
 #navbar a:hover {
 color: #ffd6d6;
 }
+
+.Title{
+  cursor: default;
+  font-size:0;
+}
+
 .T1{
   display: inline-block;
   margin:0;
+  font-size: 30px;
 }
 
 .T1:hover{
