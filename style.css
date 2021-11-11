@@ -9,6 +9,7 @@ body{
 #navbar{
   background: rgba(80, 80, 80, 0.6);
   position: fixed;
+  z-index:1;
   top:0;
   left:0;
   height: 50px;
@@ -65,7 +66,7 @@ h1{
   height: 350px;
   width: 300px;
   margin:10px;
-  background: gray;
+  background: #bbb;
   background-size:400px 350px;
   background-repeat: no-repeat;
   transform: skew(-15deg);
