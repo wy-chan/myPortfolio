@@ -52,14 +52,13 @@ h1{
 .Tile-box{
   display: flex;
   flex-direction: row;
-   width: 85%;
 }
 
 #Tile-box1{
-  justify-content: flex-start;
+transform: translate(-100px, 0px);
 }
 #Tile-box2{
-  justify-content: flex-end;
+ transform: translate(100px, 0px);
 }
 
 .Tile{
