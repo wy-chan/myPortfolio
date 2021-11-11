@@ -48,6 +48,28 @@ h1{
     font-family: 'Fredericka the Great', cursive;
 }
 
+.Tile-box{
+  display: flex;
+  flex-direction: row;
+   width: 85%;
+}
+
+#Tile-box1{
+  justify-content: flex-start;
+}
+#Tile-box2{
+  justify-content: flex-end;
+}
+
+.Tile{
+  height: 400px;
+  width: 380px;
+  background: gray;
+  margin: 10px;
+  transform: skew(-15deg);
+}
+
+
 .Title{
   cursor: default;
   font-size: 20px;
