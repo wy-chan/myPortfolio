@@ -124,7 +124,7 @@ transform: translate(-100px, 0px);
   color: white;
   font-size:40px;
   font-family: 'Fredericka the Great', cursive;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 3px 3px 3px black;
   transition: opacity 0.2s ease-out ;
 }
 .Tile> a> .hover-text-box>p{
@@ -190,5 +190,9 @@ transform: translate(0px, 0px);
   .Tile{
 width: 150px;
     margin:5px;
+  }
+   .Tile> a> .hover-text-box{
+    width:150px;
+    font-size:25px;
   }
 }
