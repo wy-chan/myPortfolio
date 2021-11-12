@@ -12,7 +12,7 @@ body{
   z-index:1;
   top:0;
   left:0;
-  height: 50px;
+  height: 40px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -45,6 +45,18 @@ color: #edebeb;
 color: #ffd6d6;
 }
 
+#top{
+  width: 100%;
+  height: 100vh;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:40px;
+}
+
+
 h1{
     font-family: 'Fredericka the Great', cursive;
 }
@@ -70,10 +82,58 @@ transform: translate(-100px, 0px);
   background-repeat: no-repeat;
   transform: skew(-15deg);
   overflow:hidden;
+   position: relative;
 }
 .Tile > a > img{
  transform: skew(15deg);
  margin-left: -50px; 
+ position: absolute;
+  z-index:-2;
+}
+.Tile > a>.hoverbg{
+  height: 0px;
+  width: 300px;
+  background:black;
+  position: absolute;
+  transition: height 0.2s ease-out 0.1s;
+  z-index:-1;
+  opacity:0.3;
+}
+
+.Tile > a>.hoverbg1{
+  top: 0;
+  
+}
+.Tile > a>.hoverbg2{
+  bottom: 0;
+  
+}
+.Tile > a:hover >.hoverbg{
+  height:175px;
+}
+
+.Tile> a> .hover-text-box{
+  height: 350px;
+  width:300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index:0;
+  position: absolute;
+  left:0;
+  opacity:0;
+  color: white;
+  font-size:40px;
+  font-family: 'Fredericka the Great', cursive;
+  text-shadow: 2px 2px 5px black;
+  transition: opacity 0.2s ease-out ;
+}
+.Tile> a> .hover-text-box>p{
+transform: skew(15deg);
+}
+.Tile > a:hover >.hover-text-box{
+  opacity:1;
 }
 
 .Title{
@@ -106,15 +166,7 @@ transform: translate(-100px, 0px);
 .T1e:hover{
     color: 	limegreen
 }
-#top{
-  width: 100%;
-  height: 100vh;
-  margin:0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 footer{
   background: #38302f;
   height:50px;
