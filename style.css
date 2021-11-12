@@ -88,11 +88,24 @@ transform: translate(-100px, 0px);
 }
 
 .T1:hover{
-  color: orange;
   cursor: default;
   text-shadow: 2px 2px 5px gray;
 }
-
+.T1a:hover{
+    color: orange
+}
+.T1b:hover{
+    color: hotpink
+}
+.T1c:hover{
+    color: mediumpurple
+}
+.T1d:hover{
+  color: 		lightskyblue
+}
+.T1e:hover{
+    color: 	limegreen
+}
 #top{
   width: 100%;
   height: 100vh;
