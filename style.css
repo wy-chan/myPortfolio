@@ -168,6 +168,31 @@ transform: skew(15deg);
     color: 	limegreen
 }
 
+.photo-box{
+  display: grid;
+  grid-template-areas:
+    "l s s"
+    "l s s";
+  justify-items: center;
+  align-items: center;
+padding: 5px;
+}
+.photoL{
+  grid-area: l;
+  width: 410px;
+  height: 410px;
+  margin: 5px;
+  background: #ccc;
+  border-radius:10px;
+}
+.photoS{
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  background: #ccc;
+  border-radius:5px;
+}
+
 footer{
   background: #38302f;
   height:50px;
@@ -197,5 +222,12 @@ width: 150px;
    .Tile> a> .hover-text-box{
     width:150px;
     font-size:25px;
+  }
+   .photo-box{
+  display: grid;
+  grid-template-areas:
+    "l l"
+    "s s"
+    "s s";
   }
 }
