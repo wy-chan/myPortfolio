@@ -74,8 +74,8 @@ transform: translate(-100px, 0px);
 }
 
 .Tile{
-  height: 350px;
-  width: 300px;
+  height: 300px;
+  width: 258px;
   margin:15px;
   background: #ccc;
   transform: skew(-15deg);
@@ -87,6 +87,7 @@ transform: translate(-100px, 0px);
  margin-left: -200px; 
  position: absolute;
   z-index:-2;
+   height: 300px;
 }
 .Tile > a>.hoverbg{
   height: 0px;
@@ -107,12 +108,12 @@ transform: translate(-100px, 0px);
   
 }
 .Tile > a:hover >.hoverbg{
-  height:175px;
+  height:150px;
 }
 
 .Tile> a> .hover-text-box{
-  height: 350px;
-  width:300px;
+  height: 300px;
+  width:258px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -137,6 +138,8 @@ transform: skew(15deg);
 .Title{
   cursor: default;
   font-size: 20px;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 
 .T1{
