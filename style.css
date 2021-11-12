@@ -77,16 +77,14 @@ transform: translate(-100px, 0px);
   height: 350px;
   width: 300px;
   margin:15px;
-  background: #bbb;
-  background-size:400px 350px;
-  background-repeat: no-repeat;
+  background: #ccc;
   transform: skew(-15deg);
   overflow:hidden;
-   position: relative;
+  position: relative;
 }
 .Tile > a > img{
  transform: skew(15deg);
- margin-left: -50px; 
+ margin-left: -200px; 
  position: absolute;
   z-index:-2;
 }
