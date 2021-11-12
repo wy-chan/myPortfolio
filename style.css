@@ -84,7 +84,7 @@ transform: translate(-100px, 0px);
 }
 .Tile > a > img{
  transform: skew(15deg);
- margin-left: -200px; 
+ margin-left: -175px; 
  position: absolute;
   z-index:-2;
    height: 300px;
