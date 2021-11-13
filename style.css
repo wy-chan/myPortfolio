@@ -193,6 +193,10 @@ padding: 5px;
   border-radius:5px;
 }
 
+#vector-graphic > .photo-box > photo{
+background: cornsilk;
+}
+
 footer{
   background: #38302f;
   height:50px;
