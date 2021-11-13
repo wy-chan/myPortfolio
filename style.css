@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Neucha&display=swap');
 
 body{
   margin:0;
@@ -53,9 +53,11 @@ section{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
+section > h2{
+font-family: 'Caveat', cursive;
+}
 
 h1{
     font-family: 'Fredericka the Great', cursive;
