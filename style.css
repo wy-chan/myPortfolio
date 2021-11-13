@@ -53,11 +53,16 @@ section{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: gray;
+ 
 }
 
 section > h2{
 font-family: 'Caveat', cursive;
+color: gray;
+}
+section > p{
+color: gray;
+
 }
 
 
