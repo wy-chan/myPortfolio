@@ -67,7 +67,9 @@ color: gray;
 
 
 h1{
-    font-family: 'Fredericka the Great', cursive;
+  font-family: 'Fredericka the Great', cursive;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 
 .Tile-box{
@@ -147,8 +149,7 @@ transform: skew(15deg);
 .Title{
   cursor: default;
   font-size: 20px;
-  margin-top: 20px;
-  margin-bottom:20px;
+  
 }
 
 .T1{
@@ -180,8 +181,8 @@ transform: skew(15deg);
 .photo-box{
   display: grid;
   grid-template-areas:
-    "l s s"
-    "l s s";
+    "l l s s"
+    "l l s s";
   justify-items: center;
   align-items: center;
 padding: 5px;
@@ -239,6 +240,7 @@ width: 150px;
    .photo-box{
   display: grid;
   grid-template-areas:
+    "l l"
     "l l"
     "s s"
     "s s";
