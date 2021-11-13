@@ -47,7 +47,6 @@ color: #ffd6d6;
 }
 
 .dropbtn {
-  padding: 16px;
   border: none;
   min-width: 200px;
   background: #555;
@@ -57,7 +56,6 @@ color: white;
 .dropdown {
   position: relative;
   display: inline-block;
-  margin: 10px auto;
 }
 .dropdown-content {
   display: none;
