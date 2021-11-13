@@ -53,11 +53,14 @@ section{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: gray;
 }
 
 section > h2{
 font-family: 'Caveat', cursive;
+  color
 }
+
 
 h1{
     font-family: 'Fredericka the Great', cursive;
