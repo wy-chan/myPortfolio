@@ -18,6 +18,7 @@ body{
   justify-content: flex-end;
   align-items: center;
   font-family: 'Neucha', cursive;
+  font-size: 16px;
 }
 #navbar ul{
    margin: 15px 10px 15px 0;
@@ -34,24 +35,30 @@ a{
   text-decoration:none;
 }
 
-#navbar a:link {
+.nav-btn{
+min-width: 200px;
+}
+
+.nav-btn:link {
 color: #edebeb;
 }
 
-#navbar a:visited {
+.nav-btn:visited {
 color: #edebeb;
 }
 
-#navbar a:hover {
+.nav-btn:hover {
 color: #ffd6d6;
 }
 
 .dropbtn {
   border: none;
+  height: 100%;
   min-width: 200px;
-  background: #555;
+  background: #444;
 color: white;
   font-family: 'Neucha', cursive;
+  font-size: 16px;
 }
 .dropdown {
   position: relative;
@@ -60,12 +67,12 @@ color: white;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #eee;
+  background-color: #999;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px gray;
   z-index: 1;
 }
-.dropdown-content a{
+.drop-btn{
   color: black;
   padding: 16px 16px;
   text-decoration: none;
@@ -73,7 +80,7 @@ color: white;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #888;
 }
 
 .dropdown:hover .dropdown-content {
@@ -81,7 +88,8 @@ color: white;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #777;
+  background-color: #666;
+  color: #ffd6d6;
 }
 
 section{
