@@ -79,11 +79,11 @@ color: white;
   text-decoration: none;
   display: block;
 }
-/*
+
 .dropdown-content a:hover {
   background-color: black;
 }
-*/
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
