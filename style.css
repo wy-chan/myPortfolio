@@ -19,7 +19,6 @@ body{
   align-items: center;
   font-family: 'Neucha', cursive;
   font-size: 16px;
-  padding-right: 50px;
 }
 #navbar ul{
    margin: 15px 10px 15px 0;
@@ -64,6 +63,7 @@ color: white;
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-right: 50px;
 }
 .dropdown-content {
   display: none;
@@ -81,7 +81,7 @@ color: white;
 }
 /*
 .dropdown-content a:hover {
-  background-color: rgba(90, 90, 90 ,0.7);
+  background-color: rgba(90, 90, 90 ,1);
 }
 */
 .dropdown:hover .dropdown-content {
@@ -89,7 +89,7 @@ color: white;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: rgba(120,120,120,1);
+  background-color: #666;
   color: #ffd6d6;
 }
 
