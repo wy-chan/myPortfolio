@@ -81,7 +81,7 @@ color: white;
 }
 
 .dropdown-content a:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.5);
 }
 
 .dropdown:hover .dropdown-content {
@@ -95,7 +95,7 @@ color: white;
 
 section{
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin:0;
   display: flex;
   flex-direction: column;
@@ -103,7 +103,9 @@ section{
   align-items: center;
  
 }
-
+section>h1{
+padding: 20px;
+}
 section > h2{
 font-family: 'Caveat', cursive;
 color: gray;
@@ -200,12 +202,26 @@ transform: skew(15deg);
   height: 200px;
   loop: 0;
 }
-#apng-tile{
+#Tile1{
+  background:DarkSeaGreen;
+}
+#Tile2{
+   background:LightCyan;
+}
+#Tile3{
+   background:CornSilk;
+}
+#Tile4{
   background: mistyrose;
   display: flex;
   align-item: center;
   justify-content: center;
-  
+}
+#Tile5{
+   background:Lavender;
+}
+#Tile6{
+   background:Gainsboro;
 }
 
 .Title{
@@ -264,9 +280,20 @@ padding: 5px;
   background: #ccc;
   border-radius:5px;
 }
-
+#original-characters > .b1 > .photo{
+background: LightCyan;
+}
+#original-characters > .b2 > .photo{
+background: AliceBlue;
+}
+#original-characters > .b3 > .photo{
+background: HoneyDew;
+}
 #vector-graphics > .photo-box > .photo{
 background: cornsilk;
+}
+#animated-image > .photo-box > .photo{
+background: mistyrose;
 }
 
 footer{
