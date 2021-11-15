@@ -93,6 +93,10 @@ color: white;
   color: #ffd6d6;
 }
 
+#blank{
+  margin-left: 50px;
+}
+
 section{
   width: 100%;
   min-height: 100vh;
@@ -197,7 +201,7 @@ transform: skew(15deg);
 }
 
 #apng1{
-  margin-left:0;
+ /* margin-left:0;*/
   margin-top: 50px;
   height: 200px;
   loop: 0;
@@ -294,6 +298,9 @@ background: cornsilk;
 }
 #animated-image > .photo-box > .photo{
 background: mistyrose;
+}
+#animated-image > .photo-box > .photoL{
+height: 300px;
 }
 
 footer{
