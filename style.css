@@ -15,7 +15,7 @@ body{
   height: 40px;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: stretch;
   align-items: center;
   font-family: 'Neucha', cursive;
   font-size: 16px;
