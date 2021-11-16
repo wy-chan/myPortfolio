@@ -95,6 +95,7 @@ color: white;
 
 #blank{
   margin-left: 50px;
+  min-width: 200px;
 }
 
 section{
@@ -201,10 +202,13 @@ transform: skew(15deg);
 }
 
 #apng1{
- /* margin-left:0;*/
+  margin-left:0;
   margin-top: 50px;
   height: 200px;
   loop: 0;
+}
+#Tile4 > a > .hoverbg{
+  margin-left:-175px;
 }
 #Tile1{
   background:DarkSeaGreen;
