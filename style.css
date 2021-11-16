@@ -202,13 +202,13 @@ transform: skew(15deg);
 }
 
 #apng1{
-  margin-left:0;
+  margin-left:85px;
   margin-top: 50px;
   height: 200px;
   loop: 0;
 }
 #Tile4 > a > .hoverbg{
-  margin-left:-175px;
+  margin-left:-170px;
 }
 #Tile1{
   background:DarkSeaGreen;
@@ -304,6 +304,8 @@ background: cornsilk;
 background: mistyrose;
 }
 #animated-image > .photo-box > .photoL{
+  width: 300px;
+  height:300px;
 padding: 100px;
 }
 
