@@ -1,23 +1,23 @@
 
 var currentSlide = 0;
 
-function moveRight(i, max) {
+function moveRight(i, max, boxWidth) {
   document.getElementsByClassName("slide")[i].getElementsByClassName("slide-box")[currentSlide].style.opacity = "0.3";
   currentSlide += 1; 
 
-  showSlide(i, max);
-  console.log(i,max);
+  showSlide(i, max, boxWidth);
+
 }
-function moveLeft(i, max) {
+function moveLeft(i, max, boxWidth) {
   document.getElementsByClassName("slide")[i].getElementsByClassName("slide-box")[currentSlide].style.opacity = "0.3";
   currentSlide -= 1; 
 
-  showSlide(i, max);
+  showSlide(i, max, boxWidth);
 }
 
-function showSlide(i, max) {
-let shift = currentSlide * -300;
-
+function showSlide(i, max, boxWidth) {
+let shift = currentSlide * -boxWidth;
+ 
 switch(currentSlide){
     case parseInt(max): 
     document.getElementsByClassName("slide-right")[i].disabled = true;
