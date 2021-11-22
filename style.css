@@ -118,7 +118,7 @@ section > h2{
 font-family: 'Caveat', cursive;
 color: gray;
 }
-section> show-box>slide>slide-box>h2{
+section> .show-box >. slide>. slide-box > h2{
   font-family: 'Caveat', cursive;
 color: gray;
 }
@@ -283,6 +283,9 @@ transform: skew(15deg);
   height: 480px;
   width: 800px;
 }
+#digital-paintings > .show-box > slide-btn{
+  height: 800px;
+}
 #original-characters > .show-box{
   height: 480px;
   width: 800px;
@@ -290,6 +293,9 @@ transform: skew(15deg);
 #original-characters > .show-box > .slide > .slide-box {
   height: 480px;
   width: 840px;
+}
+#original-characters  > .show-box > slide-btn{
+  height: 840px;
 }
 
 .slide{
@@ -301,7 +307,6 @@ transform: skew(15deg);
   border: none;
   font-size:25px;
   width: 70px;
-  height: 200px;
   color: gray;
   background: transparent;
 }
