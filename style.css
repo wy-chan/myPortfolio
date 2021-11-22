@@ -118,6 +118,10 @@ section > h2{
 font-family: 'Caveat', cursive;
 color: gray;
 }
+section> show-box>slide>slide-box>h2{
+  font-family: 'Caveat', cursive;
+color: gray;
+}
 section > p{
 color: gray;
 
@@ -271,7 +275,15 @@ transform: skew(15deg);
 .show-box{
    position: relative;
 }
+#digital-paintings > .show-box{
+  height: 480px;
+  width: 800px;
+}
 #digital-paintings > .show-box > .slide > .slide-box {
+  height: 480px;
+  width: 800px;
+}
+#original-characters > .show-box{
   height: 480px;
   width: 800px;
 }
@@ -300,7 +312,12 @@ transform: skew(15deg);
 }
 .slide-right{
   position: absolute;
-  left: 265px;  
+}
+#digital-paintings > .show-box > .slide-right{
+  left:765px;
+}
+#original-characters > .show-box > .slide-right{
+  left:805px;
 }
 .slide-lr{
   background: white;
