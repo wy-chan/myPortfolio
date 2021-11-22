@@ -6,6 +6,7 @@
     <title>WY Chan's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     
@@ -129,18 +130,36 @@
 </div>
   
 </section>
+    
+    
 <section id="digital-paintings">
 <h1>Digital Paintings</h1>
+<div class="show-box">
+  <div class="slide slideGp" id="slideGroup"> 
+    <div class="slide-box slide1Y">
   <img class="paint p1" src="Images/draw/fairy1.png" alt=""></img>
   <h2>Fairy in the Forest</h2>
+    </div>
+    <div class="slide-box slide1N">
   <img class="paint p2" src="Images/draw/m1b.png" alt=""></img>
   <h2>Winter Mermaid</h2>
+    </div>
+    <div class="slide-box slide1N">
   <img class="paint p3" src="Images/draw/piano3.png" alt=""></img>
   <h2>Piano</h2>
+    </div>
+   </div>
+  <button class="slide-btn slide-left" onclick="moveLeft('0','2')" disabled><i class="fa fa-arrow-left slide-lr"></i></button>
+  <button class="slide-btn slide-right" onclick="moveRight('0','2')"><i class="fa fa-arrow-right slide-lr"></i></button>
+   </div>
 </section>    
+
+
 <section id="original-characters">
 <h1>Original Characters</h1>
-
+<div class="show-box">
+  <div class="slide slideGp" id="slideGroup"> 
+    <div class="slide-box slide1Y">
     <div class="photo-box b1">
   <img class="photo photoL" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/dolphin/07.png" alt="">
   <img class="photo photoS" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/dolphin/17.png" alt="">
@@ -149,7 +168,9 @@
   <img class="photo photoS" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/dolphin/28.png" alt="">
 </div>
 <h2>Pink Dolphin Camellia</h2>
-
+   </div>
+    
+      <div class="slide-box slide1N">
     <div class="photo-box b2">
   <img class="photo photoL" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/pillowNtini/02.png" alt="">
   <img class="photo photoS" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/pillowNtini/10.png" alt="">
@@ -158,7 +179,9 @@
   <img class="photo photoS" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/pillowNtini/27.png" alt="">
 </div>
 <h2>Mr. Pillow & Tini</h2>
-
+   </div>
+    
+          <div class="slide-box slide1N">
     <div class="photo-box b3">
   <img class="photo photoL" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/redpandamochi/rp1.png" alt="">
   <img class="photo photoS" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/redpandamochi/16.png" alt="">
@@ -167,8 +190,14 @@
   <img class="photo photoS" src="https://raw.githubusercontent.com/wy-chan/myPortfolio/main/Images/redpandamochi/27.png" alt="">
 </div>
 <h2>Red Panda Mochi</h2>
-  
+     </div>
+       </div>
+  <button class="slide-btn slide-left" onclick="moveLeft('0','2')" disabled><i class="fa fa-arrow-left slide-lr"></i></button>
+  <button class="slide-btn slide-right" onclick="moveRight('0','2')"><i class="fa fa-arrow-right slide-lr"></i></button>
+     </div>
 </section>   
+
+
 <section id="vector-graphics">
 <h1>Vector Graphics</h1>
   <div class="photo-box">
