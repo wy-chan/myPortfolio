@@ -302,14 +302,17 @@ transform: skew(15deg);
 .slide-btn{
   border: none;
   font-size:25px;
-  width: 70px;
+  width: 435px;
   color: gray;
   background: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .slide-left{
   position: absolute;
-  left:-35px; 
+  left:-400px; 
 }
 .slide-right{
   position: absolute;
@@ -324,9 +327,8 @@ transform: skew(15deg);
   background: white;
   padding: 20px;
   border-radius: 50%;
-  border-style: solid;
-  border-width: 20px;
-  border-color: rgba(255,255,255,0.5);
+  box-shadow: 0px 0px 0px 20px rgba(255,255,255,0.3);
+
 }
 .slide-btn:disabled{
   opacity:0;
