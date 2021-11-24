@@ -1,5 +1,10 @@
 
-var currentSlide = [0,0];
+var currentSlide = [0];
+/*Change the length of currentSlide array*/
+for(i=0;i<=1;i++){
+  currentSlide.push(0);
+}
+console.log(currentSlide);
 
 function moveRight(i, max, boxWidth) {
   document.getElementsByClassName("slide")[i].getElementsByClassName("slide-box")[currentSlide[i]].style.opacity = "0.3";
