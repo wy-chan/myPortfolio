@@ -305,6 +305,9 @@ transform: skew(15deg);
   width: 70px;
   color: gray;
   background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide-left{
