@@ -280,7 +280,7 @@ transform: skew(15deg);
   width: 800px;
 }
 #digital-paintings > .show-box > .slide-btn{
-  height: 800px;
+  height: 450px;
 }
 #original-characters > .show-box{
   height: 480px;
@@ -291,7 +291,7 @@ transform: skew(15deg);
   width: 840px;
 }
 #original-characters  > .show-box > .slide-btn{
-  height: 840px;
+  height: 420px;
 }
 
 .slide{
@@ -305,9 +305,6 @@ transform: skew(15deg);
   width: 70px;
   color: gray;
   background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .slide-left{
