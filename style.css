@@ -114,11 +114,7 @@ section{
 section>h1{
 padding: 20px;
 }
-section > h2{
-font-family: 'Caveat', cursive;
-color: gray;
-}
-section> .show-box >. slide>. slide-box > h2{
+.smallTitle{
   font-family: 'Caveat', cursive;
 color: gray;
 }
@@ -283,7 +279,7 @@ transform: skew(15deg);
   height: 480px;
   width: 800px;
 }
-#digital-paintings > .show-box > slide-btn{
+#digital-paintings > .show-box > .slide-btn{
   height: 800px;
 }
 #original-characters > .show-box{
@@ -294,7 +290,7 @@ transform: skew(15deg);
   height: 480px;
   width: 840px;
 }
-#original-characters  > .show-box > slide-btn{
+#original-characters  > .show-box > .slide-btn{
   height: 840px;
 }
 
