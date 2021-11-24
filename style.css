@@ -364,19 +364,23 @@ padding: 5px;
   background: #ccc;
   border-radius:5px;
 }
-#original-characters > .b1 > .photo{
+.paint{
+background: gray;
+}
+
+.b1 > .photo{
 background: LightCyan;
 }
-#original-characters > .b2 > .photo{
+.b2 > .photo{
 background: AliceBlue;
 }
-#original-characters > .b3 > .photo{
+.b3 > .photo{
 background: HoneyDew;
 }
-#vector-graphics > .photo-box > .photo{
+.b4 > .photo{
 background: cornsilk;
 }
-#animated-image > .photo-box > .photo{
+.b5 > .photo{
 background: mistyrose;
 }
 #animated-image > .photo-box > .photoL{
