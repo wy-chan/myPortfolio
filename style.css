@@ -298,6 +298,7 @@ transform: skew(15deg);
   position: absolute;
   display: flex;
   transform: 0px;
+  transition: transform 0.3s ease-out ;
 }
 .slide-btn{
   border: none;
