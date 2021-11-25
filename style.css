@@ -302,20 +302,22 @@ transform: skew(15deg);
 .slide-btn{
   border: none;
   font-size:25px;
-  width: 435px;
+  width: 835px;
   color: gray;
   background: transparent;
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
 }
 
 .slide-left{
   position: absolute;
-  left:-400px; 
+  left:-800px; 
+  display: flex;
+  justify-content: flex-end;
 }
 .slide-right{
   position: absolute;
+  display: flex;
+  justify-content: flex-start;
 }
 #digital-paintings > .show-box > .slide-right{
   left:765px;
