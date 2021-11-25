@@ -1,11 +1,14 @@
 
 var currentSlide = [0];
+
 /*Change the length of currentSlide array*/
-for(i=0;i<=1;i++){
+var slideNumber = document.getElementsByClassName("slide").length();
+
+for(i=0;i<slideNumber;i++){
   currentSlide.push(0);
 }
-console.log(currentSlide);
 
+/*Left right buttons*/
 function moveRight(i, max, boxWidth) {
   document.getElementsByClassName("slide")[i].getElementsByClassName("slide-box")[currentSlide[i]].style.opacity = "0.3";
   currentSlide[i] += 1; 
