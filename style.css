@@ -164,13 +164,16 @@ h1{
 }
 
 #Tile-box1{
-transform: translate(-100px, 0px);
+opacity:0%; 
+transform: translate(0px, 0px);
 animation-name: tile-box1-anim;
 animation-duration: 1s;
 animation-fill-mode: forwards;
+animation-delay: 0.1s;
 }
 #Tile-box2{
-transform: translate(100px, 0px);
+opacity:0%; 
+transform: translate(0px, 0px);
 animation-name: tile-box2-anim;
 animation-duration: 1s;
 animation-fill-mode: forwards;
