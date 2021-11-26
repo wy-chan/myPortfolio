@@ -1,11 +1,12 @@
 
 var currentSlide = [0];
 
-/*Change the length of currentSlide array*/
-var slideNumber = document.getElementsByClassName("slide").length();
-
-for(i=0;i<slideNumber;i++){
-  currentSlide.push(0);
+/*Initialize currentSlide array*/
+function addSlides(){
+  var slideNumber = document.getElementsByClassName("slide").length;
+  for(i=1;i<slideNumber;i++){
+    currentSlide.push(0);
+  }
 }
 
 /*Left right buttons*/
