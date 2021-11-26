@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Neucha&display=swap');
 
+@keyframes tile-box1-anim{
+  0%{ opacity:0%; transform: translate(0px, 0px);}
+  50%{opacity:100%; }
+  70%{ transform: translate(-120px, 0px);}
+  100%{ transform: translate(-100px, 0px);}
+}
+
+@keyframes tile-box2-anim{
+  0%{ opacity:0%; transform: translate(0px, 0px);}
+  50%{opacity:100%; }
+  70%{ transform: translate(120px, 0px);}
+  100%{ transform: translate(100px, 0px);}
+}
+
 @keyframes arrow-down{
   0%{top: 0px;}
   25%{top: -5px;}
@@ -135,7 +149,6 @@ color: gray;
 }
 section > p{
 color: gray;
-
 }
 
 
@@ -151,10 +164,15 @@ h1{
 }
 
 #Tile-box1{
-transform: translate(-100px, 0px);
+animation-name: tile-box1-anim;
+animation-duration: 1s;
+animation-fill-mode: forwards;
 }
 #Tile-box2{
- transform: translate(100px, 0px);
+animation-name: tile-box2-anim;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+animation-delay: 0.5s;
 }
 
 .Tile{
