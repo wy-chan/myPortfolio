@@ -5,6 +5,7 @@
   50%{opacity:100%; }
   60%{ transform: translate(-120px, 0px);}
   90%{ transform: translate(-100px, 0px);}
+  100%{ transform: translate(-100px, 0px);}
 }
 
 @keyframes tile-box2-anim{
