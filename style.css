@@ -346,6 +346,9 @@ transform: skew(15deg);
 .slide1N{
   opacity:0.3;
 }
+.slide-box{
+transition: opacity 0.3s ease-out ;
+}
 
 /*photo grid*/
 .photo-box{
