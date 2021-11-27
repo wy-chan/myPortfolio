@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Neucha&display=swap');
 
 @keyframes tile-box1-anim{
-  0%{ opacity:0%; transform: translate(0px, 0px);}
+  0%{ opacity:0%; transform: translate(-100px, 0px);}
+  1%{ opacity:0%; transform: translate(0px, 0px);}
   50%{opacity:100%; }
   60%{ transform: translate(-120px, 0px);}
   90%{ transform: translate(-100px, 0px);}
@@ -9,7 +10,8 @@
 }
 
 @keyframes tile-box2-anim{
-  0%{ opacity:0%; transform: translate(0px, 0px);}
+  0%{ opacity:0%; transform: translate(100px, 0px);}
+  1%{ opacity:0%; transform: translate(0px, 0px);}
   10%{ opacity:0%;}
   60%{opacity:100%; }
   70%{ transform: translate(120px, 0px);}
