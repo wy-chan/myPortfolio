@@ -163,14 +163,12 @@ h1{
   flex-direction: row;
 }
 
-#Tile-box1{
-transform: translate(0px, 0px);
+#Tile-box-box1{
 animation-name: tile-box1-anim;
 animation-duration: 1s;
 animation-fill-mode: forwards;
 }
-#Tile-box2{
-transform: translate(0px, 0px);
+#Tile-box-box2{
 animation-name: tile-box2-anim;
 animation-duration: 1s;
 animation-fill-mode: forwards;
