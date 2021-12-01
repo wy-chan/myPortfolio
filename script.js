@@ -1,13 +1,23 @@
-
-var currentSlide = [0];
+/*Title animation*/
+function textAnim(){
+var textlength =document.getElementsByClassName("T1").length;
+for(i=0; i<11; i++){
+document.getElementsByClassName("T1")[i].style.animation = "title-anim 0.8s ease "+i*0.1+"s 1 normal none running"; 
+}
+}
 
 /*Adjust the length of currentSlide array*/
+var currentSlide = [0];
+
 function addSlides(){
   var slideNumber = document.getElementsByClassName("slide").length;
   for(i=1;i<slideNumber;i++){
     currentSlide.push(0);
   }
 }
+
+
+
 /*Reload tile box animation at top section*/
 function reloadTileBox(){
   e1 = document.getElementById("Tile-box-box1");
