@@ -157,8 +157,10 @@ h1{
   margin-top: 20px;
   margin-bottom:20px;
 }
-
 .Tile-box{
+  width: 1000px;
+}
+.Tile-box-box{
   display: flex;
   flex-direction: row;
 }
