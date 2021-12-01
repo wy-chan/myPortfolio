@@ -7,6 +7,12 @@
   100%{ transform: translate(-100px, 0px);}
 }
 
+@keyframes title-anim{
+  0%{font-size: 30px;}
+  50%{font-size: 50px;}
+  100%{font-size: 30px;}
+}
+
 @keyframes tile-box2-anim{
   0%{ opacity:0%; transform: translate(0px, 0px);}
   10%{ opacity:0%; transform: translate(0px, 0px);}
@@ -176,6 +182,7 @@ animation-name: tile-box1-anim;
 animation-duration: 1.5s;
 animation-fill-mode: forwards;
 }
+
 .Tile-box_anim2{
 animation-name: tile-box2-anim;
 animation-duration: 1.5s;
@@ -278,8 +285,12 @@ transform: skew(15deg);
 .Title{
   cursor: default;
   font-size: 20px;
-  margin-top:30px;
   margin-bottom:30px;
+  height: 50px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .T1{
