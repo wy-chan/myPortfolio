@@ -284,6 +284,7 @@ transform: skew(15deg);
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  font-family:'Neucha';
 }
 
 .T1{
