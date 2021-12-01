@@ -9,7 +9,7 @@
 
 @keyframes title-anim{
   0%{font-size: 30px;}
-  50%{font-size: 50px;}
+  50%{font-size: 35px;}
   100%{font-size: 30px;}
 }
 
@@ -528,7 +528,7 @@ width: 150px;
 }
 @media(max-height: 800px){
  .Title{
-  margin-top:15px;
+  height: 40px;
   margin-bottom:15px;
 }
 }
