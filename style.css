@@ -2,15 +2,15 @@
 
 @keyframes tile-box1-anim{
   0%{ opacity:0%; transform: translate(0px, 0px);}
-  60%{ opacity:100%; transform: translate(-120px, 0px);}
+  50%{ opacity:100%; transform: translate(-120px, 0px);}
   90%{ transform: translate(-100px, 0px);}
   100%{ transform: translate(-100px, 0px);}
 }
 
 @keyframes tile-box2-anim{
   0%{ opacity:0%; transform: translate(0px, 0px);}
+  10%{ opacity:0%; transform: translate(0px, 0px);}
   60%{ opacity:100%; transform: translate(120px, 0px);}
-  90%{ transform: translate(100px, 0px);}
   100%{ transform: translate(100px, 0px);}
 }
 
@@ -508,4 +508,10 @@ width: 150px;
     "s s"
     "s s";
   }
+}
+@media(max-height: 800px){
+ .Title{
+  margin-top:15px;
+  margin-bottom:15px;
+}
 }
