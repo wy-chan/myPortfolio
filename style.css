@@ -79,6 +79,12 @@ min-width: 200px;
 color: white;
 }
 
+.nav-btn:link{
+  color: white;
+}
+.nav-btn:visited{
+  color: white;
+}
 .nav-btn:hover {
 color: #ffd6d6;
 }
