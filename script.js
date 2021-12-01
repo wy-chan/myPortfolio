@@ -1,12 +1,23 @@
 
 var currentSlide = [0];
 
-/*Initialize currentSlide array*/
+/*Adjust the length of currentSlide array*/
 function addSlides(){
   var slideNumber = document.getElementsByClassName("slide").length;
   for(i=1;i<slideNumber;i++){
     currentSlide.push(0);
   }
+}
+/*Reload tile box animation at top section*/
+function reloadTileBox(){
+  e1 = document.getElementById("Tile-box-box1");
+  e2 = document.getElementById("Tile-box-box2");
+  e1.classList.remove("Tile-box_anim1");
+  void e1.offsetWidth;
+  e1.classList.add("Tile-box_anim1");
+  e2.classList.remove("Tile-box_anim2");
+  void e2.offsetWidth;
+  e2.classList.add("Tile-box_anim2");
 }
 
 /*Left right buttons*/
