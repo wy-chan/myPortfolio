@@ -272,7 +272,8 @@ transform: skew(15deg);
 .Title{
   cursor: default;
   font-size: 20px;
-  
+  margin-top:30px;
+  margin-bottom:30px;
 }
 
 .T1{
