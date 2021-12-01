@@ -1,7 +1,7 @@
 /*Title animation*/
 function textAnim(){
 var textlength =document.getElementsByClassName("T1").length;
-for(i=0; i<11; i++){
+for(i=0; i<textlength; i++){
 document.getElementsByClassName("T1")[i].style.animation = "title-anim 0.8s ease "+i*0.1+"s 1 normal none running"; 
 }
 }
