@@ -153,7 +153,7 @@ color: gray;
 
 
 h1{
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Fredericka the Great';
   margin-top: 20px;
   margin-bottom:20px;
 }
@@ -227,7 +227,7 @@ animation-fill-mode: forwards;
   opacity:0;
   color: white;
   font-size:40px;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Fredericka the Great';
   text-shadow: 3px 3px 3px black;
   transition: opacity 0.2s ease-out ;
 }
