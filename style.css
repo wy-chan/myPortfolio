@@ -167,12 +167,12 @@ h1{
 
 #Tile-box-box1{
 animation-name: tile-box1-anim;
-animation-duration: 1s;
+animation-duration: 1.5s;
 animation-fill-mode: forwards;
 }
 #Tile-box-box2{
 animation-name: tile-box2-anim;
-animation-duration: 1s;
+animation-duration: 1.5s;
 animation-fill-mode: forwards;
 }
 
