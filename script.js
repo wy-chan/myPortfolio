@@ -4,6 +4,8 @@ var e = document.getElementsByClassName("T1");
 var textlength =e.length;
 for(i=0; i<textlength; i++){
 e[i].style.animation = "none";
+}
+for(i=0; i<textlength; i++){
 e[i].style.animation = "title-anim 0.5s ease "+i*0.05+"s 1 normal forwards running"; 
 }
 }
