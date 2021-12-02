@@ -180,11 +180,13 @@ h1{
 .Tile-box_anim1{
 animation-name: tile-box1-anim;
 animation-duration: 1.5s;
+  animation-fill-mode: none;
 }
 
 .Tile-box_anim2{
 animation-name: tile-box2-anim;
 animation-duration: 1.5s;
+  animation-fill-mode: none;
 }
 
 .Tile{
@@ -296,14 +298,14 @@ transform: skew(15deg);
   display: inline-block;
   margin:0;
   font-size: 30px;
-   transform: translate(0px, -30px);
+  transform: translate(0px, -30px);
   opacity: 0%;
 }
 
 .T1:hover{
   cursor: default;
   text-shadow: 2px 2px 5px gray;
-  font-size: 30px;
+  font-size: 33px;
 }
 .T1a:hover{
     color: orange
