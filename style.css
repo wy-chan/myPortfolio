@@ -8,7 +8,7 @@
 }
 
 @keyframes title-anim{
-  0%{opacity: 0%; transform: translate(0px, -20px);}
+  0%{opacity: 0%; transform: translate(0px, -10px);}
   50%{opacity: 100%; transform: translate(0px, 0px);}
   100%{opacity: 100%;transform: translate(0px, 0px);}
 }
@@ -498,12 +498,10 @@ footer span{
 }
 
 @media(max-width: 1200px){
-.Tile-box-box1{
-  transform: translate(0px, 0px);
-}
-.Tile-box-box2{
-  transform: translate(0px, 0px);
-} 
+.Tile-box{
+  width: 480px;
+  }
+
   .Tile{
 width: 150px;
     margin:5px;
@@ -515,6 +513,7 @@ width: 150px;
   section{
   height: 1200px;
   }
+
    .photo-box{
   display: grid;
   grid-template-areas:
