@@ -8,9 +8,9 @@
 }
 
 @keyframes title-anim{
-  0%{font-size: 30px; text-shadow: none;}
-  50%{font-size: 33px; text-shadow: 2px 2px 5px gray;}
-  100%{font-size: 30px; text-shadow: none;}
+  0%{opacity: 0%; transform: translate(0px, -30px);}
+  50%{opacity: 100%; transform: translate(0px, 0px);}
+  100%{opacity: 100%;transform: translate(0px, 0px);}
 }
 
 @keyframes tile-box2-anim{
@@ -164,22 +164,27 @@ h1{
 }
 .Tile-box{
   width: 864px;
+  height: 330px;
 }
 .Tile-box-box{
   display: flex;
   flex-direction: row;
 }
+.Tile-box-box1{
+  transform: translate(-100px, 0px);
+}
+.Tile-box-box2{
+  transform: translate(100px, 0px);
+}
 
 .Tile-box_anim1{
 animation-name: tile-box1-anim;
 animation-duration: 1.5s;
-animation-fill-mode: forwards;
 }
 
 .Tile-box_anim2{
 animation-name: tile-box2-anim;
 animation-duration: 1.5s;
-animation-fill-mode: forwards;
 }
 
 .Tile{
@@ -291,11 +296,14 @@ transform: skew(15deg);
   display: inline-block;
   margin:0;
   font-size: 30px;
+   transform: translate(0px, -30px);
+  opacity: 0%;
 }
 
 .T1:hover{
   cursor: default;
   text-shadow: 2px 2px 5px gray;
+  font-size: 30px;
 }
 .T1a:hover{
     color: orange
@@ -494,15 +502,13 @@ footer span{
 }
 
 @media(max-width: 1200px){
-#Tile-box1{
-transform: translate(0px, 0px);
+.Tile-box-box1{
+  transform: translate(0px, 0px);
 }
-#Tile-box2{
- transform: translate(0px, 0px);
+.Tile-box-box2{
+  transform: translate(0px, 0px);
 }
-}
-
-@media(max-width: 840px){
+  
   .Tile{
 width: 150px;
     margin:5px;
@@ -511,6 +517,8 @@ width: 150px;
     width:150px;
     font-size:25px;
   }
+  
+  
    .photo-box{
   display: grid;
   grid-template-areas:
