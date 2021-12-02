@@ -285,7 +285,7 @@ transform: skew(15deg);
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  font-family:'Neucha';
+
 }
 
 .T1{
@@ -294,27 +294,14 @@ transform: skew(15deg);
   font-size: 30px;
   transform: translate(0px, -30px);
   opacity: 0%;
+  color: gray;
 }
 
 .T1:hover{
   cursor: default;
   text-shadow: 2px 2px 5px gray;
-  font-size: 33px;
-}
-.T1a:hover{
-    color: orange
-}
-.T1b:hover{
-    color: hotpink
-}
-.T1c:hover{
-    color: mediumpurple
-}
-.T1d:hover{
-  color: 		lightskyblue
-}
-.T1e:hover{
-    color: 	limegreen
+  font-size: 40px;
+  color: black;
 }
 
 /*slide show*/
@@ -521,11 +508,13 @@ width: 150px;
     "l l"
     "s s"
     "s s";
+     height:840px;
+     width:420px;
   }
 }
 @media(max-height: 800px){
  .Title{
   height: 35px;
-  margin-bottom:15px;
+  margin-bottom:10px;
 }
 }
