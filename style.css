@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?
+  family=Caveat&
+  family=Fredericka+the+Great&
+  family=Neucha&
+  family=Itim&
+  display=swap');
 
 @keyframes tile-box1-anim{
   0%{ opacity:0%; transform: translate(0px, 0px);}
@@ -294,7 +299,8 @@ transform: skew(15deg);
   font-size: 30px;
   transform: translate(0px, -30px);
   opacity: 0%;
-  color: gray;
+  color: rgb(90,90,90);
+  font-family: "Itim";
 }
 
 .T1:hover{
@@ -334,6 +340,7 @@ transform: skew(15deg);
 .slide{
   position: absolute;
   display: flex;
+  align-items: center;
   transform: 0px;
   transition: transform 0.3s ease-out ;
 }
@@ -500,7 +507,14 @@ width: 150px;
   section{
   height: 1200px;
   }
-
+  .slide-btn{
+  border: none;
+  font-size:25px;
+  width: 835px;
+  color: black;
+  background: transparent;
+  align-items: center;
+}
    .photo-box{
   display: grid;
   grid-template-areas:
@@ -512,9 +526,13 @@ width: 150px;
      width:420px;
   }
 }
+
 @media(max-height: 800px){
  .Title{
   height: 35px;
-  margin-bottom:10px;
+  margin-bottom:15px;
 }
+  .Tile{
+  height:258px;
+  }
 }
