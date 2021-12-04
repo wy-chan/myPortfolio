@@ -336,6 +336,7 @@ transform: skew(15deg);
   position: absolute;
   display: flex;
   align-items: center;
+  justify-content:center;
   transform: 0px;
   transition: transform 0.3s ease-out ;
 }
@@ -520,6 +521,15 @@ width: 150px;
      height:840px;
      width:420px;
   }
+  .slide-left{
+  left:-400px; 
+}
+#digital-paintings > .show-box > .slide-right{
+  left:383px;
+}
+#original-characters > .show-box > .slide-right{
+  left:403px;
+}
 }
 
 @media(max-height: 800px){
