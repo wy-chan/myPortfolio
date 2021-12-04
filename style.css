@@ -94,7 +94,7 @@ color: #ffd6d6;
   min-width: 200px;
   background: #444;
 color: white;
-  font-family: 'Fredericka the Great';
+  font-family: 'Neucha';
   font-size: 16px;
 }
 .dropdown {
@@ -234,7 +234,7 @@ animation-duration: 1.5s;
   opacity:0;
   color: white;
   font-size:40px;
-  font-family: 'Fredericka the Great';
+  font-family: 'Neucha';
   text-shadow: 3px 3px 3px black;
   transition: opacity 0.2s ease-out ;
 }
@@ -295,7 +295,7 @@ transform: skew(15deg);
   transform: translate(0px, -30px);
   opacity: 0%;
   color: rgb(90,90,90);
-  font-family: 'Caveat Brush';
+  font-family: 'Fredericka the Great';
 }
 
 .T1:hover{
@@ -534,7 +534,7 @@ width: 150px;
 
 @media(max-height: 800px){
  .Title{
-  height: 25px;
+  height: 15px;
   margin-bottom:15px;
 }
   .Tile{
