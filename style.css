@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?
-  family=Caveat&
-  family=Fredericka+the+Great&
-  family=Neucha&
-  family=Itim&
-  display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Neucha&family=Itim&display=swap');
 
 @keyframes tile-box1-anim{
   0%{ opacity:0%; transform: translate(0px, 0px);}
