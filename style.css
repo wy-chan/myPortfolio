@@ -51,7 +51,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Neucha', cursive;
+  font-family: 'Neucha';
   font-size: 16px;
 }
 #top-btn{
@@ -94,7 +94,7 @@ color: #ffd6d6;
   min-width: 200px;
   background: #444;
 color: white;
-  font-family: 'Neucha', cursive;
+  font-family: 'Fredericka the Great';
   font-size: 16px;
 }
 .dropdown {
