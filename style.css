@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Neucha&family=Itim&family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Neucha&family=Itim&family=Caveat+Brush&family=Yomogi&display=swap');
 
 @keyframes tile-box1-anim{
   0%{ opacity:0%; transform: translate(0px, 0px);}
   50%{ opacity:100%; transform: translate(-120px, 0px);}
-  90%{ transform: translate(-100px, 0px);}
-  100%{ transform: translate(-100px, 0px);}
+  90%{ transform: translate(-85px, 0px);}
+  100%{ transform: translate(-85px, 0px);}
 }
 
 @keyframes title-anim{
@@ -17,7 +17,7 @@
   0%{ opacity:0%; transform: translate(0px, 0px);}
   10%{ opacity:0%; transform: translate(0px, 0px);}
   60%{ opacity:100%; transform: translate(120px, 0px);}
-  100%{ transform: translate(100px, 0px);}
+  100%{ transform: translate(85px, 0px);}
 }
 
 @keyframes arrow-down{
@@ -32,6 +32,18 @@
   0%{box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);}
   50%{box-shadow: 0px 0px 0px 20px rgba(0,0,0,0.1);}
   100%{box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);}
+}
+
+@keyframes tile-anim1{
+  0%{transform: translate(0px, 0px) skew(-15deg);}
+  50%{transform: translate(5px, -20px) skew(-15deg);}
+  100%{transform: translate(0px, 0px) skew(-15deg);}
+}
+
+@keyframes tile-anim2{
+  0%{transform: translate(0px, 0px) skew(-15deg);}
+  50%{transform: translate(-5px, 20px) skew(-15deg);}
+  100%{transform: translate(0px, 0px) skew(-15deg);}
 }
 
 body{
@@ -65,9 +77,14 @@ body{
 #navbar ul li{
  margin: 0 30px 0 30px;
 }
-li {
+#navbar ul li {
 list-style-type: none;
 }
+
+p{
+  color: gray;
+}
+
 
 a{
   text-decoration:none;
@@ -148,18 +165,12 @@ section{
 section>h1{
 padding: 20px;
 }
-.smallTitle{
-  font-family: 'Caveat', cursive;
+h2{
+font-family: 'Neucha';
 color: gray;
 }
-section > p{
-color: gray;
-}
-
-
 h1{
-  font-family: 'Fredericka the Great';
-  margin-top: 20px;
+  font-family: 'Yomogi';
   margin-bottom:20px;
 }
 .Tile-box{
@@ -186,12 +197,13 @@ animation-duration: 1.5s;
 .Tile{
   height: 300px;
   width: 258px;
-  margin:15px;
+  margin:10px;
   background: #ccc;
   transform: skew(-15deg);
   overflow:hidden;
   position: relative;
 }
+
 .Tile > a > img{
  transform: skew(15deg);
  margin-left: -175px; 
@@ -202,20 +214,21 @@ animation-duration: 1.5s;
 .Tile > a>.hoverbg{
   height: 0px;
   width: 300px;
-  background:black;
+
   position: absolute;
   transition: height 0.2s ease-out 0.1s;
   z-index:-1;
-  opacity:0.3;
+  opacity:0.6;
 }
 
 .Tile > a>.hoverbg1{
   top: 0;
+  background: linear-gradient(180deg, gray, black);
   
 }
 .Tile > a>.hoverbg2{
   bottom: 0;
-  
+  background: linear-gradient(0deg, gray, black);
 }
 .Tile > a:hover >.hoverbg{
   height:150px;
@@ -233,13 +246,15 @@ animation-duration: 1.5s;
   left:0;
   opacity:0;
   color: white;
-  font-size:40px;
-  font-family: 'Neucha';
+  font-size:35px;
+  font-family: 'Yomogi';
   text-shadow: 3px 3px 3px black;
   transition: opacity 0.2s ease-out ;
+
 }
 .Tile> a> .hover-text-box>p{
 transform: skew(15deg);
+   color: white;
 }
 .Tile > a:hover >.hover-text-box{
   opacity:1;
@@ -285,7 +300,6 @@ transform: skew(15deg);
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
 }
 
 .T1{
@@ -295,7 +309,7 @@ transform: skew(15deg);
   transform: translate(0px, -30px);
   opacity: 0%;
   color: rgb(90,90,90);
-  font-family: 'Fredericka the Great';
+  font-family: 'Yomogi';
 }
 
 .T1:hover{
@@ -310,26 +324,21 @@ transform: skew(15deg);
    position: relative;
 }
 #digital-paintings > .show-box{
-  height: 480px;
+  height: 650px;
   width: 800px;
 }
 #digital-paintings > .show-box > .slide > .slide-box {
-  height: 480px;
+  height: 650px;
   width: 800px;
 }
-#digital-paintings > .show-box > .slide-btn{
-  height: 450px;
-}
+
 #original-characters > .show-box{
-  height: 480px;
-  width: 800px;
+  height: 650px;
+  width: 850px;
 }
 #original-characters > .show-box > .slide > .slide-box {
-  height: 480px;
-  width: 840px;
-}
-#original-characters  > .show-box > .slide-btn{
-  height: 420px;
+  height: 650px;
+  width: 850px;
 }
 
 .slide{
@@ -341,17 +350,18 @@ transform: skew(15deg);
   transition: transform 0.3s ease-out ;
 }
 .slide-btn{
+  height: 650px;
   border: none;
   font-size:25px;
   width: 835px;
   color: black;
   background: transparent;
-  align-items: center;
+  align-items: flex-end;
 }
+
 
 .slide-left{
   position: absolute;
-  left:-800px; 
   display: flex;
   justify-content: flex-end;
 }
@@ -360,16 +370,24 @@ transform: skew(15deg);
   display: flex;
   justify-content: flex-start;
 }
+#digital-paintings > .show-box > .slide-left{
+  left:-745px;
+}
+#original-characters > .show-box > .slide-left{
+  left:-745px;
+}
 #digital-paintings > .show-box > .slide-right{
-  left:765px;
+  left:710px;
 }
 #original-characters > .show-box > .slide-right{
-  left:805px;
+  left:760px;
 }
+
+
 .slide-lr{
-  background: white;
   padding: 20px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 .slide-btn:disabled{
   opacity:0;
@@ -380,17 +398,42 @@ transform: skew(15deg);
 .slide-btn:not([disabled]):hover{
   cursor:pointer;
   opacity:1;
+
 }
 .slide-btn:not([disabled]):hover .slide-lr{
   animation-name: arrow-btn;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+
 }
 .slide1N{
   opacity:0.3;
 }
 .slide-box{
 transition: opacity 0.3s ease-out ;
+
+}
+.display-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.description{
+    color: gray;
+  font-family: 'Neucha';
+  width: 600px;
+  text-align: left;
+  margin:0;
+  padding:0;
+}
+.description p{
+  margin:0;
+  list-style-type: none;
+  text-align: justify;
 }
 
 /*Next Section button*/
@@ -441,7 +484,7 @@ padding: 5px;
   height: 410px;
   margin: 5px;
   background: #ccc;
-  border-radius:10px;
+  border-radius:5px;
 }
 .photoS{
   width: 200px;
@@ -469,11 +512,13 @@ background: wheat;
 .b5 > .photo{
 background: mistyrose;
 }
-#animated-image > .photo-box > .photoL{
-  width: 300px;
-  height:300px;
-padding: 55px;
+#animated-images> .display-box > .photo-box > .photoL{
+  width: 280px;
+  height:280px;
+ padding: 65px;
 }
+
+
 
 footer{
   background: #38302f;
@@ -487,9 +532,17 @@ footer span{
   color: #edebeb;
 }
 
+
 @media(max-width: 1200px){
 .Tile-box{
   width: 480px;
+  height: 310px;
+  }
+  #Tile-box1{
+    transform: translate(60px);
+  }
+   #Tile-box2{
+    transform: translate(-60px);
   }
 
   .Tile{
@@ -500,41 +553,54 @@ width: 150px;
     width:150px;
     font-size:25px;
   }
-  section{
-  height: 1200px;
-  }
-  .slide-btn{
-  border: none;
-  font-size:25px;
-  width: 835px;
-  color: black;
-  background: transparent;
-  align-items: center;
+
+#digital-paintings > .show-box > .slide-left{
+  left:-435px;
 }
-   .photo-box{
-  display: grid;
-  grid-template-areas:
-    "l l"
-    "l l"
-    "s s"
-    "s s";
-     height:840px;
-     width:420px;
-  }
-  .slide-left{
-  left:-400px; 
+#original-characters > .show-box > .slide-left{
+  left:-415px;
 }
 #digital-paintings > .show-box > .slide-right{
-  left:383px;
+  left:400px;
 }
 #original-characters > .show-box > .slide-right{
-  left:403px;
+  left:420px;
 }
+  #digital-paintings > .show-box > .slide-right>.fa-arrow-right{
+  margin-left:310px;
+    margin-top:340px;
+}
+    #digital-paintings > .show-box > .slide-left>.fa-arrow-left{
+margin-right:310px;
+    margin-top:340px;
+}
+    #original-characters > .show-box > .slide-right>.fa-arrow-right{
+  margin-left:330px;
+    margin-top:310px;
+}
+    #original-characters > .show-box > .slide-left>.fa-arrow-left{
+margin-right:330px;
+    margin-top:310px;
+}
+}
+  .slide-btn:not([disabled]){
+    background: transparent;
+  }
+   .slide-btn:not([disabled]):hover{
+    opacity:1;
+  }
+  .slide-left:not([disabled]):hover{
+    background: linear-gradient(90deg,  black,transparent);
+  }
+  .slide-right:not([disabled]):hover{
+    background: linear-gradient(-90deg,  black,transparent);
+  }
+
 }
 
-@media(max-height: 800px){
- .Title{
-  height: 20px;
-  margin-bottom:15px;
+@media(max-height: 1100px){
+ .title{
+  height: 25px;
+  margin-bottom:10px;
 }
 }
