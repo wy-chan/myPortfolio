@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <script src="script.js"></script>
   </head>
-  <body onload="textAnim();
+<body onload="textAnim();
+                tileAnim();
                 addSlides();">
     
 <nav id="navbar">
@@ -139,17 +140,32 @@
 <h1>Digital Paintings</h1>
 <div class="show-box">
   <div class="slide slideGp"> 
-    <div class="slide-box slide1Y">
+    <div class="slide-box slide1Y display-box">
   <img class="paint p1" src="Images/draw/fairy1.png" alt=""></img>
   <h2 class="smallTitle">Fairy in the Forest</h2>
+<div class="description">
+         <p>This picture is about a fairy in the forest. The wings are inspired by insect wings and animal veins. She has thin wings and dress that light can pass through. The light helps focus the attention to the fairy comparing with the darker background. </p>
+   <br>
+         <p>Software used: Photoshop (brush tool)</p>
     </div>
-    <div class="slide-box slide1N">
+    </div>
+    <div class="slide-box slide1N display-box">
   <img class="paint p2" src="Images/draw/m1b.png" alt=""></img>
   <h2 class="smallTitle">Winter Mermaid</h2>
+  <div class="description">
+         <p>Mermaids always leave a beautiful and elegant impression, but in this scene, I would like to create a mermaid that also looks strong and tough.</p>
+   <br>
+         <p>Software used: Photoshop (brush tool)</p>
     </div>
-    <div class="slide-box slide1N">
+    </div>
+    <div class="slide-box slide1N display-box">
   <img class="paint p3" src="Images/draw/piano3.png" alt=""></img>
   <h2 class="smallTitle">Piano</h2>
+  <div class="description">
+         <p>It is a butterfly-inspired grand piano with a lid in the shape of a butterfly wing and the wooden body with butterfly-shaped carves. The main objects are dim because I would like to create a scent of mystery to this picture.</p>
+   <br>
+         <p>Software used: Photoshop (brush tool)</p>
+    </div>
     </div>
    </div>
   <button class="slide-btn slide-left" onclick="moveLeft('0','2','800')" disabled><i class="fa fa-arrow-left slide-lr"></i></button>
@@ -163,7 +179,7 @@
 <h1>Original Characters</h1>
 <div class="show-box">
   <div class="slide slideGp"> 
-    <div class="slide-box slide1Y">
+    <div class="slide-box slide1Y display-box">
     <div class="photo-box b1">
   <img class="photo photoL" src="Images/dolphin/07.png" alt="">
   <img class="photo photoS" src="Images/dolphin/17.png" alt="">
@@ -172,9 +188,14 @@
   <img class="photo photoS" src="Images/dolphin/28.png" alt="">
 </div>
 <h2 class="smallTitle">Pink Dolphin Camellia</h2>
+      <div class="description">
+         <p>Camellia is a character inspired by Indo-Pacific humpback dolphins. They are pink dolphins that live in the coastal waters of the Indian and western Pacific oceans. Camellia has an iconic dophin-shaped cap, a dophin-tail-shaped hair style and fin-shaped ears. She likes swimming freely in the ocean.</p>
+   <br>
+         <p>Software used: Photoshop (brush tool)</p>
+    </div>
    </div>
     
-      <div class="slide-box slide1N">
+      <div class="slide-box slide1N display-box">
     <div class="photo-box b2">
   <img class="photo photoL" src="Images/pillowNtini/02.png" alt="">
   <img class="photo photoS" src="Images/pillowNtini/10.png" alt="">
@@ -183,9 +204,14 @@
   <img class="photo photoS" src="Images/pillowNtini/27.png" alt="">
 </div>
 <h2 class="smallTitle">Mr. Pillow & Tini</h2>
+         <div class="description">
+         <p>Tini is a little girl who is always sleepy. Mr. Pillow was Tini's pillow originally, but one day it magically came to live when Tini drawn his face on the pillow. They became friends and have exciting adventures in the dreams everynight.</p>
+   <br>
+         <p>Software used: Photoshop (brush tool)</p>
+    </div>
    </div>
     
-          <div class="slide-box slide1N">
+          <div class="slide-box slide1N display-box">
     <div class="photo-box b3">
   <img class="photo photoL" src="Images/redpandamochi/rp1.png" alt="">
   <img class="photo photoS" src="Images/redpandamochi/16.png" alt="">
@@ -194,6 +220,11 @@
   <img class="photo photoS" src="Images/redpandamochi/27.png" alt="">
 </div>
 <h2 class="smallTitle">Red Panda Mochi</h2>
+             <div class="description">
+         <p>Mochi is a cute red panda with a round body. Although Mochi is lazy, he is enjoying his life everyday. His favourite activities are eating bamboo leaves and sleeping. Mochi is slightly fatter than other red pandas, but he can climb the trees quickly and find foods efficiently.</p>
+   <br>
+         <p>Software used: Photoshop (brush tool)</p>
+    </div>
      </div>
        </div>
   <button class="slide-btn slide-left" onclick="moveLeft('1','2','840')" disabled><i class="fa fa-arrow-left slide-lr"></i></button>
@@ -205,6 +236,7 @@
 
 <section id="vector-graphics">
 <h1>Vector Graphics</h1>
+    <div class="display-box">
   <div class="photo-box b4">
   <img class="photo photoL" src="Images/redpandasvg/5.svg" alt="">
   <img class="photo photoS" src="Images/redpandasvg/3.svg" alt="">
@@ -213,10 +245,18 @@
   <img class="photo photoS" src="Images/redpandasvg/9.svg" alt="">
 </div>
 <h2 class="smallTitle">Red Panda</h2>
+        <div class="description">
+         <p>These pictures are about red pandas playing in a cafe. Some of them are taking a bath in the drinks, some of them are drinking water, and some of them are eating snacks.</p>
+   <br>
+         <p>Software used: Illustrator (pen tool)</p>
+         <p>File format: SVG</p>
+    </div>
+      </div>
   <button onClick="location.href='#animated-image'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
 </section>
 <section id="animated-image">
 <h1>Animated Image</h1>
+   <div class="display-box">
     <div class="photo-box b5">
   <img class="photo photoL" src="Images/apngloop/04.png" alt="">
   <img class="photo photoS" src="Images/apngloop/21.png" alt="">
@@ -225,7 +265,14 @@
   <img class="photo photoS" src="Images/apngloop/23.png" alt="">
 </div>
 <h2 class="smallTitle">Mr. Pillow & Tini</h2>
+     <div class="description">
+         <p>These are some animated images of Mr. Pillow & Tini. Mr. Pillow likes feathers and cotton balls, he loves to eat them to keep his body shape. Mr. Pillow's body is heavy but bouncy. Tini likes jumping on Mr. Pillow's bouncy body.</p>
+   <br>
+         <p>Software used: Photoshop (brush tool)</p>
+         <p>File format: APNG</p>
+    </div>
   <button onClick="location.href='#water-colour'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
+     </div>
 </section> 
 
     <section id="water-colour">
@@ -236,7 +283,7 @@
 <h1>Ink Wash Painting</h1>
 </section> 
 <footer>
-<span>Made by WY Chan, 2021</span>
+<span>This page is made by WY Chan, 2021</span>
 </footer>
 </body>
 </html>
