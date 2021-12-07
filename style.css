@@ -599,3 +599,9 @@ margin-right:330px;
   }
 
 }
+@media(max-height: 1000px){
+  .title{
+    height: 15px;
+    margin-bottom: 5px;
+  }
+}
