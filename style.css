@@ -535,6 +535,30 @@ footer span{
 
 
 @media(max-width: 1000px){
+  #navbar{
+  height:100px;
+  }
+  #top-btn{
+    font-size:40px;
+  }
+  #nav-btn{
+    font-size:40px;
+  }
+  .T1{
+    font-size:50px;
+  }
+  h1{
+    font-size:50px;
+  }
+  h2{
+    font-size:40px;
+  }
+  p{
+    font-size: 30px;
+  }
+  section{
+  min-height:
+  }
 .Tile-box{
   width: 570px;
   }
@@ -583,20 +607,8 @@ margin-right:330px;
     margin-top:310px;
 }
   .show-box, .slide-box, .display-box, .slide, .slide-btn{
-  height:800px;
+  height:1000px;
 }
-  .T1{
-    font-size:40px;
-  }
-  h1{
-    font-size:40px;
-  }
-  h2{
-    font-size:30px;
-  }
-  p{
-    font-size: 25px;
-  }
 
 }
 @media(max-height: 1000px){
