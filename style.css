@@ -376,6 +376,7 @@ transform: skew(15deg);
   padding: 20px;
   border-radius: 50%;
   margin-bottom: 20px;
+   background: white;
 }
 .slide-btn:disabled{
   opacity:0;
@@ -521,24 +522,23 @@ footer span{
 }
 
 
-@media(max-width: 1200px){
+@media(max-width: 1000px){
 .Tile-box{
-  width: 480px;
-  height: 310px;
+  width: 570px;
   }
   #Tile-box1{
-    transform: translate(60px);
+    transform: translate(45px);
   }
    #Tile-box2{
-    transform: translate(-60px);
+    transform: translate(-45px);
   }
 
   .Tile{
-width: 150px;
+width: 180px;
     margin:5px;
   }
    .Tile> a> .hover-text-box{
-    width:150px;
+    width:180px;
     font-size:25px;
   }
 
@@ -586,9 +586,3 @@ margin-right:330px;
 
 }
 
-@media(max-height: 1100px){
- .title{
-  height: 25px;
-  margin-bottom:10px;
-}
-}
