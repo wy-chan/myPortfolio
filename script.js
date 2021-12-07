@@ -6,16 +6,6 @@ for(i=0; i<textlength; i++){
 e[i].style.animation = "title-anim 0.5s ease "+i*0.05+"s 1 normal forwards running"; 
 }
 }
-function tileAnim(){
-var e = document.getElementsByClassName("tile-anim");
-var l =e.length;
-for(i=0; i<l-3; i++){
-e[i].style.animation = "tile-anim1 0.8s ease "+i*0.2+"s 1 normal forwards running"; 
-}
-for(i=l-3; i<l; i++){
-e[i].style.animation = "tile-anim2 0.8s ease "+i*0.2+"s 1 normal forwards running"; 
-}
-}
 
 /*Adjust the length of currentSlide array*/
 var currentSlide = [0];
