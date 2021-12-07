@@ -559,8 +559,8 @@ footer span{
   section{
   min-height:
   }
-  .dropbtn {
-  font-size: 40px;
+  .dropbtn, .dropdown-content{
+  font-size: 35px;
 }
 .Tile-box{
   width: 570px;
