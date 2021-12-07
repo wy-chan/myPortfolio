@@ -24,10 +24,10 @@
     <a class="drop-btn" href="#top" onClick="reloadTileBox()" >All</a>
     <a class="drop-btn" href="#digital-paintings">Digital Paintings</a>
     <a class="drop-btn" href="#original-characters">Original Characters</a>
-    <a class="drop-btn" href="#vector-graphics">Vector Graphics</a>
-    <a class="drop-btn" href="#animated-image">Animated Image</a>
     <a class="drop-btn" href="#water-colour">Water Colour</a>
-    <a class="drop-btn" href="#ink-wash-painting">Ink Wash Painting</a>
+    <a class="drop-btn" href="#vector-graphics">Vector Graphics</a>
+    <a class="drop-btn" href="#animated-images">Animated Images</a>
+    <a class="drop-btn" href="#ink-wash-paintings">Ink Wash Paintings</a>
   </div>
 </div>
 
@@ -56,19 +56,18 @@
 <div class="hover-text-box"><p>Original<br>Characters</p></div>
   </a>
 </div>
-
-  
 <div class="Tile tile-anim"  id="Tile3" >
-<a href="#vector-graphics" title="Vector Graphics">
-  <img src="Images/pdc_top1.png"
-       alt="Vector Graphics">
+   <a  href="#water-colour" title="Water Colour" >
+    <img src=" "
+       alt="Water Colour"
+       >   
   <div class="hoverbg hoverbg1"></div>
 <div class="hoverbg hoverbg2"></div>
-<div class="hover-text-box"><p>Vector<br>Graphics</p></div>
- </a>  
-</div>
-</div>
+<div class="hover-text-box"><p>Water<br>Colour</p></div>
+</a>
   </div>
+  
+
   
 <div class="Title">
 <h1 class="T1 T1a">P</h1>
@@ -101,33 +100,34 @@
 <div class="Tile-box" id="Tile-box2">
   <div class="Tile-box-box  Tile-box_anim2" id="Tile-box-box2">
 <div class="Tile tile-anim"  id="Tile4" >
-    <a  href="#animated-image" title="Animated Image" >
+    <a  href="#animated-images" title="Animated Images" >
     <img class="apng" id="apng1" src="Images/apngloop/04.png"
-       alt="Animated Image"
+       alt="Animated Images"
        >    
 <div class="hoverbg hoverbg1"></div>
 <div class="hoverbg hoverbg2"></div>
-<div class="hover-text-box"><p>Animated<br>Image</p></div>
+<div class="hover-text-box"><p>Animated<br>Images</p></div>
 </a>
   </div>
 <div class="Tile tile-anim"  id="Tile5" >
-   <a  href="#water-colour" title="Water Colour" >
-    <img src=" "
-       alt="Water Colour"
-       >   
+<a href="#vector-graphics" title="Vector Graphics">
+  <img src="Images/pdc_top1.png"
+       alt="Vector Graphics">
   <div class="hoverbg hoverbg1"></div>
 <div class="hoverbg hoverbg2"></div>
-<div class="hover-text-box"><p>Water<br>Colour</p></div>
-</a>
+<div class="hover-text-box"><p>Vector<br>Graphics</p></div>
+ </a>  
+</div>
+</div>
   </div>
 <div class="Tile tile-anim"  id="Tile6" >
-   <a   href="#ink-wash-painting" title="Ink Wash Painting" >
+   <a   href="#ink-wash-paintings" title="Ink Wash Paintings" >
     <img src=""
-       alt="Ink Wash Painting"
+       alt="Ink Wash Paintings"
        >   
   <div class="hoverbg hoverbg1"></div>
 <div class="hoverbg hoverbg2"></div>
-<div class="hover-text-box"><p>Ink<br>Wash<br>Painting</p></div>
+<div class="hover-text-box"><p>Ink<br>Wash<br>Paintings</p></div>
 </a>
   </div>
 </div>
@@ -230,10 +230,35 @@
   <button class="slide-btn slide-left" onclick="moveLeft('1','2','840')" disabled><i class="fa fa-arrow-left slide-lr"></i></button>
   <button class="slide-btn slide-right" onclick="moveRight('1','2','840')"><i class="fa fa-arrow-right slide-lr"></i></button>
      </div>
-  <button onClick="location.href='#vector-graphics'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
+  <button onClick="location.href='#water-colour'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
 </section>   
 
+    <section id="water-colour">
+<h1>Water Colour</h1>
+      <button onClick="location.href='#animated-images'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
+</section> 
 
+
+<section id="animated-images">
+<h1>Animated Images</h1>
+   <div class="display-box">
+    <div class="photo-box b5">
+  <img class="photo photoL" src="Images/apngloop/04.png" alt="">
+  <img class="photo photoS" src="Images/apngloop/21.png" alt="">
+  <img class="photo photoS" src="Images/apngloop/00.png" alt="">
+  <img class="photo photoS" src="Images/apngloop/14.png" alt="">
+  <img class="photo photoS" src="Images/apngloop/23.png" alt="">
+</div>
+<h2 class="smallTitle">Mr. Pillow & Tini</h2>
+     <div class="description">
+         <p>These are some animated images of Mr. Pillow & Tini. Mr. Pillow likes feathers and cotton balls, he loves to eat them to keep his body shape. Mr. Pillow's body is heavy but bouncy. Tini likes jumping on Mr. Pillow's bouncy body.</p>
+   <br>
+         <p>Software used: Photoshop (brush tool)</p>
+         <p>File format: APNG</p>
+    </div>
+  <button onClick="location.href='#vector-graphics'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
+     </div>
+</section> 
 <section id="vector-graphics">
 <h1>Vector Graphics</h1>
     <div class="display-box">
@@ -252,35 +277,10 @@
          <p>File format: SVG</p>
     </div>
       </div>
-  <button onClick="location.href='#animated-image'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
+  <button onClick="location.href='#ink-wash-paintings'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
 </section>
-<section id="animated-image">
-<h1>Animated Image</h1>
-   <div class="display-box">
-    <div class="photo-box b5">
-  <img class="photo photoL" src="Images/apngloop/04.png" alt="">
-  <img class="photo photoS" src="Images/apngloop/21.png" alt="">
-  <img class="photo photoS" src="Images/apngloop/00.png" alt="">
-  <img class="photo photoS" src="Images/apngloop/14.png" alt="">
-  <img class="photo photoS" src="Images/apngloop/23.png" alt="">
-</div>
-<h2 class="smallTitle">Mr. Pillow & Tini</h2>
-     <div class="description">
-         <p>These are some animated images of Mr. Pillow & Tini. Mr. Pillow likes feathers and cotton balls, he loves to eat them to keep his body shape. Mr. Pillow's body is heavy but bouncy. Tini likes jumping on Mr. Pillow's bouncy body.</p>
-   <br>
-         <p>Software used: Photoshop (brush tool)</p>
-         <p>File format: APNG</p>
-    </div>
-  <button onClick="location.href='#water-colour'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
-     </div>
-</section> 
-
-    <section id="water-colour">
-<h1>Water Colour</h1>
-      <button onClick="location.href='#ink-wash-painting'" class="next-section">Next <i class="fa fa-angle-double-down"></i></button>
-</section> 
-    <section id="ink-wash-painting">
-<h1>Ink Wash Painting</h1>
+    <section id="ink-wash-paintings">
+<h1>Ink Wash Paintings</h1>
 </section> 
 <footer>
 <span>This page is made by WY Chan, 2021</span>
