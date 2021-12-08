@@ -9,9 +9,10 @@ e[i].style.animation = "title-anim 0.5s ease "+i*0.05+"s 1 normal forwards runni
 
 /*Adjust the length of currentSlide array*/
 var currentSlide = [0];
-document.getElementsByClassName("dot-group")[0].getElementsByClassName("dot")[currentSlide[0]].style.opacity = "1";
+
 
 function addSlides(){
+  document.getElementsByClassName("dot-group")[0].getElementsByClassName("dot")[currentSlide[0]].style.opacity = "1";
   var slideNumber = document.getElementsByClassName("slide").length;
   for(i=1;i<slideNumber;i++){
     currentSlide.push(0);
