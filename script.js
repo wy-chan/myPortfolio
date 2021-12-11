@@ -20,7 +20,10 @@ function addSlides(){
   }
 }
 
-
+/*Reload Page*/
+function reloadPage(){
+  window.location.reload();
+}
 
 /*Reload tile box animation at top section*/
 function reloadTileBox(){
@@ -32,7 +35,6 @@ function reloadTileBox(){
   e2.classList.remove("Tile-box_anim2");
   void e2.offsetWidth;
   e2.classList.add("Tile-box_anim2");
-  
 }
 
 /*Left right buttons*/
