@@ -161,6 +161,11 @@ h1{
   font-family: 'Yomogi';
   margin-bottom:20px;
 }
+
+#top{
+ margin-top: 50px;
+}
+
 .Tile-box{
   width: 864px;
   height: 330px;
